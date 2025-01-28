@@ -564,7 +564,7 @@ function update() {
   bckip=$(sed -n '6p' /usr/bin/ht)
   bckpw=$(sed -n '7p' /usr/bin/ht)
   echo "backup ip address & password"
-  wget -q -O /usr/bin/ht-update https://raw.githubusercontent.com/ahmadqsyaa/hw-tools-script/main/ht
+  wget -q -O /usr/bin/ht-update https://raw.githubusercontent.com/alkhanet26/ht/main/ht
   if [ $? -ne 0 ]; then
     echo -e "\e[1;31mUpdate/reinstall failed please try again and make sure your internet is good\e[0m"
     exit 1

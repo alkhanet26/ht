@@ -5,7 +5,7 @@
 #Fix IP & Pass https://github.com/alkhanet26
 
 ipmodem=$(ip route | grep default | cut -d'dev' -f2 | cut -d' ' -f3)
-pass=$(cat /tmp/pw2)
+pass=$(echo -e "admin" > /tmp/pw2 && cat /tmp/pw2)
 pw1(){
   read -p "Masukan Password Login Modem : " b
   echo -e $b > /tmp/pw2

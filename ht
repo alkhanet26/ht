@@ -3,7 +3,7 @@
 #do not modify this file if you do not understand it
 #create https://github.com/ahmadqsyaa
 
-ipmodem="192.168.8.1"
+ipmodem=${ip route | grep default | cut -d'dev' -f2 | cut -d' ' -f3}
 pass="admin"
 
 login() {

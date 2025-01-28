@@ -1,7 +1,12 @@
 # ht
 
 sebuah script huawei tools manager untuk modem huawei web ui based,,,
-dengan beberapa fix ya sudah saya sesuaikan agar IP modem bisa flexible
+dengan beberapa fix ya sudah saya sesuaikan agar IP modem bisa flexible fitur:
+- Info Modem
+- Lock Band
+- Read SMS
+- Refresh IP
+- Reboot Modem
 
 opkg update && opkg install wget bash curl && wget -O /usr/bin/ht https://raw.githubusercontent.com/alkhanet26/ht/main/ht && chmod +x /usr/bin/ht
 

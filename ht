@@ -2,6 +2,7 @@
 
 #do not modify this file if you do not understand it
 #create https://github.com/ahmadqsyaa
+#Fix IP & Pass https://github.com/alkhanet26
 
 ipmodem=$(ip route | grep default | cut -d'dev' -f2 | cut -d' ' -f3)
 pass="admin"
@@ -474,6 +475,7 @@ function usage() {
   echo "╔════════❖══════════❖════════╗"
   echo -e "|   \e[35mHuawei Tools Script v2\e[0m    |"
   echo "|  Created by Rick Qsyaerick  |"
+  echo "|     Add Some FIX by ALK     |"
   echo "╚════════❖═════|════❖════════╝"
   echo "╔════════❖═════|════❖════════╗"
   echo -e "➥ 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛 : \e[1;34m$operator\e[0m"

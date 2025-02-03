@@ -13,4 +13,9 @@ opkg update && opkg install wget bash curl && wget -O /usr/bin/ht https://raw.gi
 ![image](https://github.com/user-attachments/assets/80edea5d-dcaf-42ef-a2cb-6fd77c250637)
 
 
+
+note update :
+- sudah otomatis membaca ip modem
+- ada menu untuk mengganti password di script jika password login modem sudah di ganti
+
 SCRIPT Original By [RICK](https://github.com/ahmadqsya)

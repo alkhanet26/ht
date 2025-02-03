@@ -1,6 +1,10 @@
 # ht
 
 sebuah script huawei tools manager untuk modem huawei web ui based,,,
+pembaruan
+ - sudah otomatis read ip modem
+ - jika modem password di ganti ada menu change password
+
 dengan beberapa fix ya sudah saya sesuaikan agar IP modem bisa flexible fitur:
 - Info Modem
 - Lock Band
@@ -14,8 +18,5 @@ opkg update && opkg install wget bash curl && wget -O /usr/bin/ht https://raw.gi
 
 
 
-note update :
-- sudah otomatis membaca ip modem
-- ada menu untuk mengganti password di script jika password login modem sudah di ganti
 
 SCRIPT Original By [RICK](https://github.com/ahmadqsya)

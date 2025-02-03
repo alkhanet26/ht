@@ -1,7 +1,8 @@
-# ht
+# HUAWEI TOOLS
 
 sebuah script huawei tools manager untuk modem huawei web ui based,,,
-pembaruan
+
+# PEMBARUAN
  - sudah otomatis read ip modem
  - jika modem password di ganti ada menu change password
 

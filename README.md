@@ -6,9 +6,9 @@ sebuah script huawei tools manager untuk modem huawei web ui based,,,
  - sudah otomatis read ip modem
  - jika modem password di ganti ada menu change password
 
+# FITUR
 dengan beberapa fix ya sudah saya sesuaikan agar IP modem bisa flexible fitur:
 - Info Modem
-- Lock Band
 - Read SMS
 - Refresh IP
 - Reboot Modem
